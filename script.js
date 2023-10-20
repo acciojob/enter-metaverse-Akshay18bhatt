@@ -5,8 +5,8 @@ const newpara= document.createElement("h1");
 newpara.id="status";
 newpara.innerText="Entered Metaverse";
 function changeP(){
+	para.innerText="";
+	para.appendChild(newpara);
 	
-	document.body.insertBefore(newpara, para);
-	para.remove();
 }
 button.addEventListener("click", changeP);
